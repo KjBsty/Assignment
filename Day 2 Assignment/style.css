@@ -1,0 +1,41 @@
+.my {
+    background:linear-gradient(to bottom,teal 50%, #fff 50%) !important;
+    color:teal !important;
+    
+
+}
+
+.title {
+    color: #fff;
+}
+.card {
+    box-shadow: 0px 0px 15px 2px teal;
+    margin-bottom: 40px;
+}
+
+img, svg {
+    margin-top: 13px;
+    border-radius: 10px;
+}
+
+.my-btn {
+    background-color: #00b050 !important;
+    color:#fff !important;
+}
+
+.my-table {
+    margin-top: 20px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    /* box-shadow: 0 0 20px rgba(0, 128, 128, 0.15); */
+    box-shadow: 0px 0px 15px 2px teal;
+}
+
+.my-table tbody tr.active {
+    background-color: teal !important;
+    color: #fff !important;
+}
+
+.my-teal {
+    color: teal !important;
+}
