@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 100%;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 40px;
+    color: #061655;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: capitalize;
+    color: #061655;
+    line-height: 45px;
+  
+}
+
+h4 {
+    color: #061655;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+p {
+    font-size: 15px;
+    color: #040818;
+    font-weight: 400;
+    line-height: 1.75rem;
+    letter-spacing: 1px;
+  }
+.my-navbar{
+    position:fixed;
+    width:100%;
+    left:0;
+    background-color: rgb(245, 250, 255);
+} 
+
+.navbar-brand{
+    font-size: 40px !important;
+    font-weight: bold !important;
+}
+
+.nav-link{
+    font-size:15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color:#2D57FF;
+    letter-spacing: 1px;
+}
+
+.my-banner{
+    width:100%;
+    background: url('https://fantuan.ca/static/275d81312763c0fc05f3678bc4b46624/ee604/head-pic2.png') no-repeat center;
+    background-size:cover;
+    padding:270px 0px 150px;
+}
+  
+  
+.food .card{
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.food .card img{
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.food .card span{
+    display:block;
+    font-size: 20px;
+    font-weight: 700;
+    color:#2D57FF;
+    padding-bottom:15px;
+    border-bottom:1px solid #eee;
+}
+
+ 
+
+
+  @media (max-width: 500px) {
+
+    .my-navbar {
+        background-color: #fff;
+    }
+    
+    .navbar-brand {
+        font-size: 30px !important;
+        font-weight: bold !important;
+    }
+
+    .my-banner{
+        padding: 175px 0 150px;
+    }
+     
+}
+
+
+
+
